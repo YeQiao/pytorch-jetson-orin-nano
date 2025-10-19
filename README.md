@@ -468,13 +468,6 @@ A: Yes! See the build configuration section. Build time is ~2-3 hours on Orin Na
 
 ---
 
-## 📞 Contact
-
-- **Issues**: [GitHub Issues](https://github.com/YeQiao/pytorch-jetson-orin-nano/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/YeQiao/pytorch-jetson-orin-nano/discussions)
-
----
-
 <div align="center">
 
 **Built with ❤️ for the Jetson Community**
