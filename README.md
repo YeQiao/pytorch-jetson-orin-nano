@@ -84,33 +84,6 @@ CUDA available: True
 
 ---
 
-## ✨ Features
-
-### Full PyTorch Functionality
-
-All core features have been tested and verified:
-
-- ✅ **Tensor Operations** - CPU and GPU tensors
-- ✅ **CUDA Support** - Full GPU acceleration
-- ✅ **Neural Networks** - `torch.nn` module complete
-- ✅ **Autograd** - Automatic differentiation
-- ✅ **Optimizers** - SGD, Adam, AdamW, etc.
-- ✅ **Loss Functions** - All standard losses
-- ✅ **Data Loading** - DataLoader and transforms
-- ✅ **Model Training** - Full training workflows
-- ✅ **Model Inference** - Production-ready inference
-- ✅ **TorchVision** - Compatible (install separately)
-
-### Optimization Details
-
-- **GPU Architecture**: Compiled for SM 8.7 (Jetson Orin)
-- **CUDA Optimizations**: Native CUDA 12.6 kernels
-- **cuDNN Acceleration**: Optimized convolutions, pooling, activations
-- **ARM NEON**: Native ARM64 optimizations
-- **Memory Efficiency**: Optimized for Jetson's unified memory
-
----
-
 ## 📦 What's Included
 
 The distribution package contains:
@@ -146,7 +119,7 @@ USE_CUDNN=1                     # Enable cuDNN acceleration
 USE_NCCL=0                      # NCCL not available on Jetson
 USE_DISTRIBUTED=0               # Distributed training disabled
 TORCH_CUDA_ARCH_LIST="8.7"      # Orin GPU architecture
-MAX_JOBS=1                      # Prevent OOM during compilation
+MAX_JOBS=2                      # Prevent OOM during compilation
 ```
 
 ### Version Information
