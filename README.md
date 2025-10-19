@@ -18,7 +18,6 @@ Custom-built PyTorch with CUDA 12.6 and cuDNN 9.3 support, specifically compiled
 
 - **JetPack 6.2** includes **cuDNN 9.3.0** (modern version)
 - **NVIDIA's official Jetson PyTorch wheels** are compiled against **cuDNN 8.x** (older version)
-- **Result**: `ImportError` or `Symbol not found` errors when trying to use official wheels
 
 ### The Solution
 
