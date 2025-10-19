@@ -464,7 +464,7 @@ A: No, this is specifically for Orin devices with JetPack 6.2. Xavier/Nano use d
 A: Download the new release and run the installer again. It will upgrade automatically.
 
 **Q: Can I build this myself?**
-A: Yes! See the build configuration section. Build time is ~2-3 hours on Orin Nano.
+A: Yes! See the build configuration section. Build time is ~6-8 hours on Orin Nano.
 
 ---
 
